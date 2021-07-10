@@ -1,0 +1,44 @@
+.burgerDiv{
+    position: fixed;
+    z-index: 10;
+    height: 50px;
+    width: 100%;
+    background: none;
+    display: flex;
+    align-items: center;
+}
+
+.burgerBtn {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 50%;
+}
+
+.burgerBtn span {
+    content: '';
+    position: absolute;
+    top: 8px;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.burgerBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.burgerBtn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+}
