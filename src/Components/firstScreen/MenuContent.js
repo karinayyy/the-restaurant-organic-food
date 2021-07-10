@@ -3,7 +3,7 @@ import '../../Styles/MenuContent.css'
 function MenuContent(){
     return(
         <div className='bgImg'>
-            <div className='wrapper'>
+            <div className='shadowWrapper'>
                 <div className='logo'>
                     <img src='https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1f7591a43d715b62a6734fb0/Untitled-1.png'/>
                 </div>

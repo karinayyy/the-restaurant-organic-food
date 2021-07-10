@@ -1,0 +1,46 @@
+.wrapper{
+    height: 70vh;
+    margin: 5%;
+}
+
+.wrapper h6{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 60px auto 0;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+
+.wrapper h2{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 20px auto 0;
+    font-family: serif;
+    line-height: 1.1;
+}
+
+.dishList {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.dish h6{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    word-wrap: break-word;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    padding: 25px;
+}
+
+.dish p {
+    font-size: 1.125rem;
+    line-height: 1.2;
+    padding: 0 20px;
+}
