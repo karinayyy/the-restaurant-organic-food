@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import LogoPage from './Pages/LogoPage';
-import Menu from './Components/secondScreen/RestaurantMenu';
+import MainPage from './Pages/MainPage';
 
 function App() {
   return (
     <div className="App">
-      <LogoPage />
-      <Menu/>
+      <MainPage />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
